@@ -340,49 +340,28 @@
 					</constraints>
 				</field>
 				<field>
-					<type>repeat</type>
-					<id>bullets_o</id>
+					<type>node-selector</type>
+					<id>content_o</id>
 					<iceId></iceId>
-					<title>Bullets</title>
-					<description>Repeating Groups</description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
-					<type>textarea</type>
-					<id>text_t</id>
-					<iceId></iceId>
-					<title>Text</title>
+					<title>Content</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>rows</name>
-							<value>5</value>
+							<name>minSize</name>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>100000</value>
+							<name>maxSize</name>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>allowResize</name>
-							<value>true</value>
-							<type>boolean</type>
+							<name>itemManager</name>
+							<value>bullets</value>
+							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -390,20 +369,28 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>escapeContent</name>
-							<value>false</value>
+							<name>disableFlattening</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useSingleValueFilename</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useMVS</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>required</name>
+							<name>allowDuplicates</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
-				</field>
-					</fields>
 				</field>
 			</fields>
 		</section>
@@ -436,6 +423,54 @@
 							<name>repoPath</name>
 							<value>/static-assets/images</value>
 								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>components</type>
+					<id>bullets</id>
+					<title>Bullets</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>allowEmbedded</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>allowShared</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearch</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>baseRepoPath</name>
+							<value>/site/components</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>baseBrowsePath</name>
+							<value>/site/components</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>contentTypes</name>
+							<value>*</value>
+								<type>contentTypes</type>
+						</property>
+						<property>
+							<name>tags</name>
+							<value></value>
+								<type>string</type>
 						</property>
 					</properties>
 				</datasource>
