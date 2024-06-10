@@ -1668,6 +1668,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.23.9, @babel/runtime@npm:^7.24.6":
+  version: 7.24.7
+  resolution: "@babel/runtime@npm:7.24.7"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: d17f29eed6f848ac15cdf4202a910b741facfb0419a9d79e5c7fa37df6362fc3227f1cc2e248cc6db5e53ddffb4caa6686c488e6e80ce3d29c36a4e74c8734ea
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15, @babel/template@npm:^7.22.5, @babel/template@npm:^7.3.3":
   version: 7.22.15
   resolution: "@babel/template@npm:7.22.15"
@@ -1765,103 +1774,159 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftercms/classes@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/classes@npm:4.1.2"
+"@craftercms/classes@npm:4.1.5":
+  version: 4.1.5
+  resolution: "@craftercms/classes@npm:4.1.5"
   dependencies:
-    "@craftercms/models": 4.1.2
-    "@craftercms/utils": 4.1.2
-    query-string: ^7.1.0
-    url-search-params-polyfill: ^5.0.0
-  checksum: b1259f31573ef14a8bfe3702debdca745eafb0bad1a08076dc4d0ba28129e264e7d116be281f8e326c9f10d8789bdbf2f7ca83fd0eb791204e475ac2e4e12768
+    "@craftercms/models": 4.1.5
+    "@craftercms/utils": 4.1.5
+    query-string: ^7.1.3
+  checksum: e398e50e8ce14dae7a76c573ba97a371f55fae19bbe797f281484e569f680b5e2fbbef4f9f44b67519049a05ffd3842341fa4f8937c3037a28e7d25c3855ff62
   languageName: node
   linkType: hard
 
-"@craftercms/content@npm:4.1.2, @craftercms/content@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/content@npm:4.1.2"
+"@craftercms/content@npm:4.1.5, @craftercms/content@npm:^4.1.2-support.2":
+  version: 4.1.5
+  resolution: "@craftercms/content@npm:4.1.5"
   dependencies:
-    "@craftercms/classes": 4.1.2
-    "@craftercms/models": 4.1.2
-    "@craftercms/utils": 4.1.2
-    rxjs: ^7.0.0
-  checksum: 255590be88b92cead9c609251205fa9203dbf8a601ef9c402c3ed790d2464e82335281fc3a902a8ca859beec4084b13a7f3498c3bbded3532bb17852a7e1617e
+    "@craftercms/classes": 4.1.5
+    "@craftercms/models": 4.1.5
+    "@craftercms/utils": 4.1.5
+    rxjs: ^7.8.1
+  checksum: 9abd2b4425e8c4688ed65f1ff47a8b93837c146ea69507375dfaa2c0eb3b13afb2bbb61dc8913e15705c0ed8cf31fe570a2a736d19eb43bae2f5a73cbcb44edf
   languageName: node
   linkType: hard
 
-"@craftercms/experience-builder@npm:^4.1.2-1":
-  version: 4.1.2
-  resolution: "@craftercms/experience-builder@npm:4.1.2"
+"@craftercms/experience-builder@npm:^4.1.2-support.3":
+  version: 4.1.5
+  resolution: "@craftercms/experience-builder@npm:4.1.5"
   dependencies:
-    "@craftercms/classes": 4.1.2
-    "@craftercms/content": 4.1.2
-    "@craftercms/ice": 4.1.2-1
-    "@craftercms/search": 4.1.2
-    "@craftercms/studio-ui": 4.1.2
-    "@reduxjs/toolkit": ^1.9.2
-    "@types/react-dom": ^18.0.10
-    jquery: ^3.6.4
-    js-cookie: ^3.0.1
+    "@craftercms/classes": 4.1.5
+    "@craftercms/content": 4.1.5
+    "@craftercms/ice": 4.1.5
+    "@craftercms/search": 4.1.5
+    "@craftercms/studio-ui": 4.1.5
+    "@reduxjs/toolkit": ^1.9.7
+    "@types/react-dom": ^18.2.18
+    jquery: ^3.7.1
+    js-cookie: ^3.0.5
     prop-types: ^15.8.1
     react-hotkeys-hook: ^3.4.7
     react-is: ^18.2.0
     uuid: ^8.3.2
   peerDependencies:
-    "@emotion/css": ^11.10.6
-    "@emotion/react": ^11.10.6
-    "@emotion/styled": ^11.10.6
-    "@mui/icons-material": ^5.11.11
-    "@mui/material": ^5.11.11
-    react: ^18.2.0
-    react-dom: ^18.2.0
+    "@emotion/css": ^11.11.2
+    "@emotion/react": ^11.11.3
+    "@emotion/styled": ^11.11.0
+    "@mui/icons-material": ^5.15.7
+    "@mui/material": ^5.15.7
+    react: ^18.0.0
+    react-dom: ^18.0.0
     react-redux: ^7.2.9
     redux: ^4.2.1
     redux-observable: ^2.0.0
     rxjs: ^7.0.0
-  checksum: b8da03ee84c7b0225d20ccd41a9c3c7c2420a42469a537208036e65cbdcaccfc3c2c5f3af6f3d78cd0d4f6182c2ee1d9fc9b830d4b0ec5a0046b7e1c1c12bdfc
+  checksum: 151d697e13d029db4656f842dac02e91cd3558b17ddfcf877d632ff1e4b1ac012c7b66200d8ab42ef9e776a3e36150d160e0ce5f0217a76f6889d7da498cc846
   languageName: node
   linkType: hard
 
-"@craftercms/ice@npm:4.1.2-1":
-  version: 4.1.2-1
-  resolution: "@craftercms/ice@npm:4.1.2-1"
+"@craftercms/ice@npm:4.1.5":
+  version: 4.1.5
+  resolution: "@craftercms/ice@npm:4.1.5"
   dependencies:
-    "@craftercms/models": 4.1.2-1
+    "@craftercms/models": 4.1.5
   peerDependencies:
     react: ^18.0.0
-  checksum: 8c5866f7fbcf2793d35ec94f4cfc12c2b352d0e8b4e213e47da9e62cd6c911c587a21c81e5b496e32177923c44a820f121ff77363b2c21ac4d4a4d5b0cd7dbed
+  checksum: d21b8ccceb75662d3c5f0579d379da1ed9a39f452ede402e9dc9d625f4b927a7b44f1730270ff7fc0803350374bb2b1f083db4ca62d7c0108b1f2673e1a8ef80
   languageName: node
   linkType: hard
 
-"@craftercms/models@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/models@npm:4.1.2"
-  checksum: 7e9c22a67b722ac638b2823f487698a735a7c954fee2b38dde35bc135ce1dd492bfe26e9bc1f53e46583dd06f1a2a0d843cc23e927bcedf0e0ae57c0bd23cb1e
+"@craftercms/models@npm:4.1.5":
+  version: 4.1.5
+  resolution: "@craftercms/models@npm:4.1.5"
+  checksum: f68732183c8b1a6470ed95d2332dc7da7109fca8ad06602ca922dff6c093e87a56e03824ce02da4b4c71233a545752316ac7a355a073fd6ee0c1f982769866f5
   languageName: node
   linkType: hard
 
-"@craftercms/models@npm:4.1.2-1":
-  version: 4.1.2-1
-  resolution: "@craftercms/models@npm:4.1.2-1"
-  checksum: e5c9b4385fdc558798dc3755fc2ec8a433d801f1c7acf5c19c07e69416be36a9f3166c552d0e4735a3ddde14c1e6cfde679b1f51ca563f1862a16057a466f9bf
-  languageName: node
-  linkType: hard
-
-"@craftercms/search@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/search@npm:4.1.2"
+"@craftercms/search@npm:4.1.5":
+  version: 4.1.5
+  resolution: "@craftercms/search@npm:4.1.5"
   dependencies:
-    "@craftercms/classes": 4.1.2
-    "@craftercms/models": 4.1.2
-    "@craftercms/utils": 4.1.2
-    rxjs: ^7.0.0
-    url-search-params-polyfill: ^5.0.0
+    "@craftercms/classes": 4.1.5
+    "@craftercms/models": 4.1.5
+    "@craftercms/utils": 4.1.5
+    rxjs: ^7.8.1
     uuid: ^3.4.0
-  checksum: 4f5224ff00e6fcdb093703bb91430d9434b20308d88888423326db0e6c952c80ad21955169772bdd4d222bbfce7af9e2ce9508373b3e1ce4919b656b8a9aa45c
+  checksum: ca320df05029290c0557f7167949902f9cb5c6b4e0a66629cc4b82e41cbad183b845fe3ba6c03d077ebe41dd06261d9978f3031ca71e8bcff1c87cf964111b08
   languageName: node
   linkType: hard
 
-"@craftercms/studio-ui@npm:4.1.2, @craftercms/studio-ui@npm:^4.1.2":
+"@craftercms/studio-ui@npm:4.1.5":
+  version: 4.1.5
+  resolution: "@craftercms/studio-ui@npm:4.1.5"
+  dependencies:
+    "@craftercms/uppy": 4.1.5
+    "@mui/x-data-grid": ^5.17.26
+    "@mui/x-date-pickers": ^5.0.20
+    "@mui/x-tree-view": ^6.17.0
+    "@prettier/plugin-xml": ^2.2.0
+    "@reduxjs/toolkit": ^1.9.7
+    "@stomp/stompjs": ^7.0.0
+    "@types/ace": ^0.0.48
+    "@types/graphql": ^14.5.0
+    "@types/marked": ^4.3.2
+    "@types/react": ^18.2.48
+    "@types/react-dom": ^18.2.18
+    "@types/react-swipeable-views": ^0.13.1
+    "@types/video.js": ^7.3.56
+    "@videojs/vhs-utils": ^2.3.0
+    autosuggest-highlight: ^3.3.4
+    clsx: ^2.1.0
+    fast-xml-parser: ^4.1.3
+    graphiql: ^1.11.5
+    graphiql-explorer: ^0.9.0
+    graphql: ^16.6.0
+    graphql-ws: ^5.11.3
+    highlight.js: ^11.9.0
+    jabber: ^1.5.3
+    jquery: ^3.7.1
+    js-cookie: ^3.0.5
+    marked: ^4.3.0
+    moment-timezone: ^0.5.44
+    nanoid: ^3.3.7
+    notistack: 3.0.1
+    prettier: ^2.8.4
+    react-animations: ^1.0.0
+    react-hotkeys-hook: ^3.4.7
+    react-infinite-scroller: ^1.2.6
+    react-swipeable-views: ^0.14.0
+    react-swipeable-views-utils: ^0.14.0
+    slugify: ^1.6.6
+    tss-react: ^3.7.1
+    uppy: ^3.15.0
+    zxcvbn: ^4.4.2
+  peerDependencies:
+    "@emotion/css": ^11.11.2
+    "@emotion/react": ^11.11.3
+    "@emotion/styled": ^11.11.0
+    "@mui/icons-material": ^5.15.7
+    "@mui/lab": ^5.0.0-alpha.163
+    "@mui/material": ^5.15.7
+    query-string: ^6.14.1
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-intl: ^6.0.5
+    react-redux: ^7.2.9
+    react-router-dom: ^5.3.4|| ^6.0.0
+    redux: ^4.2.1
+    redux-observable: ^2.0.0
+    rxjs: ^7.0.0
+    video.js: ^8.12.0
+  checksum: 7cd9f965758cae8c3b1b2b0be9428269eba32550ab9798cdd7d7354868885148a88c0f15c8cec57c25ae8580cda302e0e75b183d1a670ffe4f4eb21bce6c0795
+  languageName: node
+  linkType: hard
+
+"@craftercms/studio-ui@npm:^4.1.2":
   version: 4.1.2
   resolution: "@craftercms/studio-ui@npm:4.1.2"
   dependencies:
@@ -1934,10 +1999,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftercms/utils@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/utils@npm:4.1.2"
-  checksum: 57cd4af9ee20482f273bc8a5f911be19a0a7bf1f065955a2d6b0fb72ad3a4bea3421dfa51561059d60773c4b41ded30bf2ed29585ee0b493ad2963d6a3e9a0be
+"@craftercms/uppy@npm:4.1.5":
+  version: 4.1.5
+  resolution: "@craftercms/uppy@npm:4.1.5"
+  peerDependencies:
+    uppy: ^2.13.8
+  checksum: de1c700bc135bf2af69b56267d46931755808ff9eadd3f4fd449928e62ff6d8c691988f06ebe5589138bcd839ab332f3690f5602fb64a1f14df0b2489e0b217d
+  languageName: node
+  linkType: hard
+
+"@craftercms/utils@npm:4.1.5":
+  version: 4.1.5
+  resolution: "@craftercms/utils@npm:4.1.5"
+  checksum: f076a7ad986120fe255a943e904a5150ddf338f7ad3d9f03bf285bdfae17ffc770e0f752a669ea2b2efaf63bf66e33e0180ece48393723218a54dfecc6523102
   languageName: node
   linkType: hard
 
@@ -2549,12 +2623,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/core@npm:^1.0.0":
+  version: 1.6.2
+  resolution: "@floating-ui/core@npm:1.6.2"
+  dependencies:
+    "@floating-ui/utils": ^0.2.0
+  checksum: a161b2c8e14b6e185960ec19398f4b893ef3cd6620d535c348c1dc877fb4ffc9f701eb7156f6a30a89b7826093ba28ea223fc2fd1996c0b2464741208725ac8f
+  languageName: node
+  linkType: hard
+
 "@floating-ui/core@npm:^1.4.2":
   version: 1.5.0
   resolution: "@floating-ui/core@npm:1.5.0"
   dependencies:
     "@floating-ui/utils": ^0.1.3
   checksum: 54b4fe26b3c228746ac5589f97303abf158b80aa5f8b99027259decd68d1c2030c4c637648ebd33dfe78a4212699453bc2bd7537fd5a594d3bd3e63d362f666f
+  languageName: node
+  linkType: hard
+
+"@floating-ui/dom@npm:^1.0.0":
+  version: 1.6.5
+  resolution: "@floating-ui/dom@npm:1.6.5"
+  dependencies:
+    "@floating-ui/core": ^1.0.0
+    "@floating-ui/utils": ^0.2.0
+  checksum: 767295173cfc9024b2187b65d3c1a0c8d8596a1f827d57c86288e52edf91b41508b3679643e24e0ef9f522d86aab59ef97354b456b39be4f6f5159d819cc807d
   languageName: node
   linkType: hard
 
@@ -2580,10 +2673,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/react-dom@npm:^2.0.8":
+  version: 2.1.0
+  resolution: "@floating-ui/react-dom@npm:2.1.0"
+  dependencies:
+    "@floating-ui/dom": ^1.0.0
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 371ab3b14627026c637f4a2b8ca3dbfb7f67f1d51e74af5448b8e5bc76b8ccf30fed5e66d855f1ac1a6de28d79acc6dffcbcca4744a327a5e8d47f3515b0b52a
+  languageName: node
+  linkType: hard
+
 "@floating-ui/utils@npm:^0.1.3":
   version: 0.1.6
   resolution: "@floating-ui/utils@npm:0.1.6"
   checksum: b34d4b5470869727f52e312e08272edef985ba5a450a76de0917ba0a9c6f5df2bdbeb99448e2c60f39b177fb8981c772ff1831424e75123471a27ebd5b52c1eb
+  languageName: node
+  linkType: hard
+
+"@floating-ui/utils@npm:^0.2.0":
+  version: 0.2.2
+  resolution: "@floating-ui/utils@npm:0.2.2"
+  checksum: 3d8d46fd1b071c98e10d374e2dcf54d1eb9de0aa75ed2b994c9132ebf6f783f896f979053be71450bdb6d60021120cfc24d25a5c84ebb3db0994080e13d9762f
   languageName: node
   linkType: hard
 
@@ -3201,6 +3313,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mui/base@npm:^5.0.0-beta.20":
+  version: 5.0.0-dev.20240529-082515-213b5e33ab
+  resolution: "@mui/base@npm:5.0.0-dev.20240529-082515-213b5e33ab"
+  dependencies:
+    "@babel/runtime": ^7.24.6
+    "@floating-ui/react-dom": ^2.0.8
+    "@mui/types": ^7.2.14-dev.20240529-082515-213b5e33ab
+    "@mui/utils": ^6.0.0-dev.20240529-082515-213b5e33ab
+    "@popperjs/core": ^2.11.8
+    clsx: ^2.1.1
+    prop-types: ^15.8.1
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 7ca5d369c5f4dfa2bb36fe49d721f3dc28a6d067bd74492e8f4531671ff9debe33bade579d0cdcb7d5f899bfc5003c8f710b1f9422edd22f06d805dbc68c9f4e
+  languageName: node
+  linkType: hard
+
 "@mui/core-downloads-tracker@npm:^5.14.13":
   version: 5.14.13
   resolution: "@mui/core-downloads-tracker@npm:5.14.13"
@@ -3353,6 +3487,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mui/types@npm:^7.2.14-dev.20240529-082515-213b5e33ab":
+  version: 7.2.14
+  resolution: "@mui/types@npm:7.2.14"
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 615c9f9110933157f5d3c4fee69d6e70b98fc0d9ebc3b63079b6a1e23e6b389748687a25ab4ac15b56166fc228885da87c3929503b41fa322cfdee0f6d411206
+  languageName: node
+  linkType: hard
+
 "@mui/types@npm:^7.2.3, @mui/types@npm:^7.2.6":
   version: 7.2.6
   resolution: "@mui/types@npm:7.2.6"
@@ -3383,7 +3529,43 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/x-data-grid@npm:^5.17.25":
+"@mui/utils@npm:^5.14.14":
+  version: 5.15.14
+  resolution: "@mui/utils@npm:5.15.14"
+  dependencies:
+    "@babel/runtime": ^7.23.9
+    "@types/prop-types": ^15.7.11
+    prop-types: ^15.8.1
+    react-is: ^18.2.0
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 36543ba7e3b65fb3219ed27e8f1455aff15b47a74c9b642c63e60774e22baa6492a196079e72bcfa5a570421dab32160398f892110bd444428bcf8b266b11893
+  languageName: node
+  linkType: hard
+
+"@mui/utils@npm:^6.0.0-dev.20240529-082515-213b5e33ab":
+  version: 6.0.0-dev.20240529-082515-213b5e33ab
+  resolution: "@mui/utils@npm:6.0.0-dev.20240529-082515-213b5e33ab"
+  dependencies:
+    "@babel/runtime": ^7.24.6
+    "@types/prop-types": ^15.7.12
+    prop-types: ^15.8.1
+    react-is: ^18.2.0
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 6869a031b5f725933e3f028c6efc7890a42601ec7b8498edc396fd9a93d8eeff8726b696ceaada1b89aa55a00a00d6371ebb5d144a3926e5429356edc806c8e0
+  languageName: node
+  linkType: hard
+
+"@mui/x-data-grid@npm:^5.17.25, @mui/x-data-grid@npm:^5.17.26":
   version: 5.17.26
   resolution: "@mui/x-data-grid@npm:5.17.26"
   dependencies:
@@ -3442,6 +3624,28 @@ __metadata:
     moment:
       optional: true
   checksum: c8537e6c0cee2659494c9f7250eb0ad35fb84bcd09f9cc0ae5c0ba2d4faaa3a87c598c97f0aa065aadb540384e4d7ac0cf1107f8ca94d7bf7a2d7f393adfd011
+  languageName: node
+  linkType: hard
+
+"@mui/x-tree-view@npm:^6.17.0":
+  version: 6.17.0
+  resolution: "@mui/x-tree-view@npm:6.17.0"
+  dependencies:
+    "@babel/runtime": ^7.23.2
+    "@mui/base": ^5.0.0-beta.20
+    "@mui/utils": ^5.14.14
+    "@types/react-transition-group": ^4.4.8
+    clsx: ^2.0.0
+    prop-types: ^15.8.1
+    react-transition-group: ^4.4.5
+  peerDependencies:
+    "@emotion/react": ^11.9.0
+    "@emotion/styled": ^11.8.1
+    "@mui/material": ^5.8.6
+    "@mui/system": ^5.8.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  checksum: 725ce597a0c452367d2229a0fac97647ba8a13f2c17a72c75e515b48ba25fb22dd1753f9b5f951728af5e2108def86815d401d0ed5d16d66329926c9de4b68db
   languageName: node
   linkType: hard
 
@@ -3560,7 +3764,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reduxjs/toolkit@npm:^1.9.2":
+"@reduxjs/toolkit@npm:^1.9.2, @reduxjs/toolkit@npm:^1.9.7":
   version: 1.9.7
   resolution: "@reduxjs/toolkit@npm:1.9.7"
   dependencies:
@@ -4224,7 +4428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/marked@npm:^4.0.8":
+"@types/marked@npm:^4.0.8, @types/marked@npm:^4.3.2":
   version: 4.3.2
   resolution: "@types/marked@npm:4.3.2"
   checksum: c1107079d6c368dd60a668a41aa2101d006cad404b6eb4af6723d419dc869b278928fb769825f11d0d311a8cf437428992729c8a47253b6a3894a6326b1ee4d9
@@ -4282,6 +4486,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prop-types@npm:^15.7.11, @types/prop-types@npm:^15.7.12":
+  version: 15.7.12
+  resolution: "@types/prop-types@npm:15.7.12"
+  checksum: ac16cc3d0a84431ffa5cfdf89579ad1e2269549f32ce0c769321fdd078f84db4fbe1b461ed5a1a496caf09e637c0e367d600c541435716a55b1d9713f5035dfe
+  languageName: node
+  linkType: hard
+
 "@types/q@npm:^1.5.1":
   version: 1.5.6
   resolution: "@types/q@npm:1.5.6"
@@ -4309,6 +4520,15 @@ __metadata:
   dependencies:
     "@types/react": "*"
   checksum: 22ba066b141dca5a5a9227fae0afc7c94b470fff8e8a38ade72649da57a8ea04d0cb2ba3e22005e7d8e772d49bddd28855b1dd98e6defd033bba6afb6edff883
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:^18.2.18":
+  version: 18.3.0
+  resolution: "@types/react-dom@npm:18.3.0"
+  dependencies:
+    "@types/react": "*"
+  checksum: a0cd9b1b815a6abd2a367a9eabdd8df8dd8f13f95897b2f9e1359ea3ac6619f957c1432ece004af7d95e2a7caddbba19faa045f831f32d6263483fc5404a7596
   languageName: node
   linkType: hard
 
@@ -4342,6 +4562,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-transition-group@npm:^4.4.8":
+  version: 4.4.10
+  resolution: "@types/react-transition-group@npm:4.4.10"
+  dependencies:
+    "@types/react": "*"
+  checksum: fe2ea11f70251e9f79f368e198c18fd469b1d4f1e1d44e4365845b44e15974b0ec925100036f449b023b0ca3480a82725c5f0a73040e282ad32ec7b0def9b57c
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:*, @types/react@npm:16 || 17 || 18, @types/react@npm:^18.0.0, @types/react@npm:^18.0.28":
   version: 18.2.28
   resolution: "@types/react@npm:18.2.28"
@@ -4350,6 +4579,16 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 81381bedeba83278f4c9febb0b83e0bd3f42a25897a50b9cb36ef53651d34b3d50f87ebf11211ea57ea575131f85d31e93e496ce46478a00b0f9bf7b26b5917a
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.48":
+  version: 18.3.3
+  resolution: "@types/react@npm:18.3.3"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: c63d6a78163244e2022b01ef79b0baec4fe4da3475dc4a90bb8accefad35ef0c43560fd0312e5974f92a0f1108aa4d669ac72d73d66396aa060ea03b5d2e3873
   languageName: node
   linkType: hard
 
@@ -4449,6 +4688,13 @@ __metadata:
   version: 7.3.53
   resolution: "@types/video.js@npm:7.3.53"
   checksum: 2b42d8e9268992a5c08542054ed249773d47316449556b6d992eda14f0f55ac4b57b2990e197632a1be5b780122930a62fed27512532f63ed502f21b04e45a8a
+  languageName: node
+  linkType: hard
+
+"@types/video.js@npm:^7.3.56":
+  version: 7.3.58
+  resolution: "@types/video.js@npm:7.3.58"
+  checksum: 154abf8898d6f5302e48b4bf40c077515fb0815e54e3d856f25a73f8c328a33bfec28581001ab2f65ef1bb3d55338f3bbe7ae372ae7880786d569a454cf0608b
   languageName: node
   linkType: hard
 
@@ -5643,8 +5889,8 @@ __metadata:
     "@babel/plugin-syntax-flow": ^7.14.5
     "@babel/plugin-transform-react-jsx": ^7.14.9
     "@codemirror/language": ^0.20.0
-    "@craftercms/content": ^4.1.2
-    "@craftercms/experience-builder": ^4.1.2-1
+    "@craftercms/content": ^4.1.2-support.2
+    "@craftercms/experience-builder": ^4.1.2-support.3
     "@craftercms/studio-ui": ^4.1.2
     "@emotion/cache": ^11.10.5
     "@emotion/css": ^11.10.6
@@ -6584,6 +6830,13 @@ __metadata:
   version: 2.0.0
   resolution: "clsx@npm:2.0.0"
   checksum: a2cfb2351b254611acf92faa0daf15220f4cd648bdf96ce369d729813b85336993871a4bf6978ddea2b81b5a130478339c20d9d0b5c6fc287e5147f0c059276e
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.1.0, clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: acd3e1ab9d8a433ecb3cc2f6a05ab95fe50b4a3cfc5ba47abb6cbf3754585fcb87b84e90c822a1f256c4198e3b41c7f6c391577ffc8678ad587fc0976b24fd57
   languageName: node
   linkType: hard
 
@@ -9200,6 +9453,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"goober@npm:^2.0.33":
+  version: 2.1.14
+  resolution: "goober@npm:2.1.14"
+  peerDependencies:
+    csstype: ^3.0.10
+  checksum: 78978b7192d6a1af5cfbf1fd64b661b5f53ee6c733554b1f1b2ad3e1e2c979847fc080434390647640bb8358c0b193895d0007432c0886d12001f02f8f56b5e6
+  languageName: node
+  linkType: hard
+
 "gopd@npm:^1.0.1":
   version: 1.0.1
   resolution: "gopd@npm:1.0.1"
@@ -9380,7 +9642,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"highlight.js@npm:^11.7.0":
+"highlight.js@npm:^11.7.0, highlight.js@npm:^11.9.0":
   version: 11.9.0
   resolution: "highlight.js@npm:11.9.0"
   checksum: 4043d31c5de9d27d13387d9a9e5e1939557254b7b85f0fab85d9cae0e420e131a3456ebf6148552020a1d8a216d671d583f2433d6c4de6179b8a66487a8325cb
@@ -10984,7 +11246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jquery@npm:^3.6.4":
+"jquery@npm:^3.6.4, jquery@npm:^3.7.1":
   version: 3.7.1
   resolution: "jquery@npm:3.7.1"
   checksum: 4370b8139d6ae82867eb6f7f21d1edccf1d1bdf41c0840920ea80d366c2cd5dbe1ceebb110ee9772aa839b04400faa1572c5c560b507c688ed7b61cea26c0e27
@@ -11618,7 +11880,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^4.2.12":
+"marked@npm:^4.2.12, marked@npm:^4.3.0":
   version: 4.3.0
   resolution: "marked@npm:4.3.0"
   bin:
@@ -11943,6 +12205,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"moment-timezone@npm:^0.5.44":
+  version: 0.5.45
+  resolution: "moment-timezone@npm:0.5.45"
+  dependencies:
+    moment: ^2.29.4
+  checksum: a22e9f983fbe1a01757ce30685bce92e3f6efa692eb682afd47b82da3ff960b3c8c2c3883ec6715c124bc985a342b57cba1f6ba25a1c8b4c7ad766db3cd5e1d0
+  languageName: node
+  linkType: hard
+
 "moment@npm:^2.29.4":
   version: 2.29.4
   resolution: "moment@npm:2.29.4"
@@ -12043,6 +12314,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: 7d0eda657002738aa5206107bd0580aead6c95c460ef1bdd0b1a87a9c7ae6277ac2e9b945306aaa5b32c6dcb7feaf462d0f552e7f8b5718abfc6ead5c94a71b3
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^3.3.7":
+  version: 3.3.7
+  resolution: "nanoid@npm:3.3.7"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: d36c427e530713e4ac6567d488b489a36582ef89da1d6d4e3b87eded11eb10d7042a877958c6f104929809b2ab0bafa17652b076cdf84324aa75b30b722204f2
   languageName: node
   linkType: hard
 
@@ -12185,6 +12465,19 @@ __metadata:
     "@emotion/styled":
       optional: true
   checksum: f95952ea7209840f6f05a65e74f0fb4e7a1bb321753b2955ae6052f2205d47a6a3c50a42b72db11eac2fc491c4105b4687bed89e79287399530973fa133a5380
+  languageName: node
+  linkType: hard
+
+"notistack@npm:3.0.1":
+  version: 3.0.1
+  resolution: "notistack@npm:3.0.1"
+  dependencies:
+    clsx: ^1.1.0
+    goober: ^2.0.33
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 421c970308690b8c8cb2e275e7f66020db7c1955e104f638e7fa562396a6b9322ff95f0e62492b07f3d36b0ef72adb4de2c2ce9803089c1c8f028d1a3b088e01
   languageName: node
   linkType: hard
 
@@ -13795,7 +14088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"query-string@npm:^7.1.0":
+"query-string@npm:^7.1.3":
   version: 7.1.3
   resolution: "query-string@npm:7.1.3"
   dependencies:
@@ -14693,7 +14986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^7.0.0, rxjs@npm:^7.5.2":
+"rxjs@npm:^7.0.0, rxjs@npm:^7.5.2, rxjs@npm:^7.8.1":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
@@ -15077,7 +15370,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slugify@npm:^1.6.5":
+"slugify@npm:^1.6.5, slugify@npm:^1.6.6":
   version: 1.6.6
   resolution: "slugify@npm:1.6.6"
   checksum: 04773c2d3b7aea8d2a61fa47cc7e5d29ce04e1a96cbaec409da57139df906acb3a449fac30b167d203212c806e73690abd4ff94fbad0a9a7b7ea109a2a638ae9
@@ -16369,13 +16662,6 @@ __metadata:
     querystringify: ^2.1.1
     requires-port: ^1.0.0
   checksum: fbdba6b1d83336aca2216bbdc38ba658d9cfb8fc7f665eb8b17852de638ff7d1a162c198a8e4ed66001ddbf6c9888d41e4798912c62b4fd777a31657989f7bdf
-  languageName: node
-  linkType: hard
-
-"url-search-params-polyfill@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "url-search-params-polyfill@npm:5.1.0"
-  checksum: 868668e93bccf9c6cf79dfd687c9df9f7f9b63f280c8779c18148c6ee20acb24f5a40d89ed4622cd4ff7417dbfe178f4b364f9735d925b134fd6ed575b781166
   languageName: node
   linkType: hard
 

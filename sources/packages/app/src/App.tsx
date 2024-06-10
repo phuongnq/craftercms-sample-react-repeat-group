@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { ExperienceBuilder, RenderField, useGuestContext } from '@craftercms/experience-builder/react';
+import { ExperienceBuilder, RenderField, useGuestContext, RenderRepeat } from '@craftercms/experience-builder/react';
 import { ContentInstance } from '@craftercms/models';
 import { getModel } from './lib/api';
 import { BASE_URL } from './constants';
@@ -17,6 +17,24 @@ function Header(props: ContentProps) {
 
   return (
     <header className="App-header">
+       <ul>
+        <RenderRepeat
+          model={model}
+          fieldId="bullets_o"
+          renderItem={(item: ContentInstance, index: number) => (
+            <li>
+              <RenderField
+                model={model}
+                fieldId="bullets_o.text_t" // That way the component knows that the field we are rendering is 'text_t' from 'bullets_o'
+                index={index} // We also need to let the component know the index of the field inside the rep group being rendered
+                render={() => {
+                  return <div>{item.text_t}</div>;
+                }}
+              />
+            </li>
+          )}
+        />
+      </ul>
       <RenderField model={model} fieldId="headText_s" component="p" />
       <RenderField
         model={model}
