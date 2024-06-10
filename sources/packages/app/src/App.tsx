@@ -17,10 +17,10 @@ function Header(props: ContentProps) {
 
   return (
     <header className="App-header">
-       <ul>
-        <RenderRepeat
+      <RenderRepeat
           model={model}
           fieldId="bullets_o"
+          component={"ul"}
           renderItem={(item: ContentInstance, index: number) => (
             <li>
               <RenderField
@@ -34,7 +34,6 @@ function Header(props: ContentProps) {
             </li>
           )}
         />
-      </ul>
       <RenderField model={model} fieldId="headText_s" component="p" />
       <RenderField
         model={model}
