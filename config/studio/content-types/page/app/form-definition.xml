@@ -339,29 +339,31 @@
 						</constraint>
 					</constraints>
 				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Bullets</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
 				<field>
-					<type>node-selector</type>
-					<id>content_o</id>
+					<type>input</type>
+					<id>title_s</id>
 					<iceId></iceId>
-					<title>Content</title>
+					<title>Title</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>minSize</name>
-							<value></value>
+							<name>size</name>
+							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxSize</name>
-							<value></value>
+							<name>maxlength</name>
+							<value>50</value>
 							<type>int</type>
-						</property>
-						<property>
-							<name>itemManager</name>
-							<value>bullets</value>
-							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -369,28 +371,51 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>disableFlattening</name>
-							<value></value>
+							<name>tokenize</name>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>useSingleValueFilename</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>useMVS</name>
-							<value></value>
+							<name>escapeContent</name>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>allowDuplicates</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
 					</constraints>
+				</field>
+				<field>
+					<type>repeat</type>
+					<id>bullets_o</id>
+					<iceId></iceId>
+					<title>Bullets</title>
+					<description></description>
+					<minOccurs>1</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>1</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+					</fields>
 				</field>
 			</fields>
 		</section>
