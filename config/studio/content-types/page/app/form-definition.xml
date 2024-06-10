@@ -344,7 +344,7 @@
 					<id>bullets_o</id>
 					<iceId></iceId>
 					<title>Bullets</title>
-					<description></description>
+					<description>Repeating Groups</description>
 					<minOccurs>0</minOccurs>
 					<maxOccurs>*</maxOccurs>
 					<properties>
