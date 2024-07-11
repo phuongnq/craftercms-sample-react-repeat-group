@@ -77,6 +77,7 @@ function App() {
     <Suspense fallback={<div />}>
       <div className="App" role="main">
         {model && (
+          // @ts-ignore
           <ExperienceBuilder isAuthoring={isAuthoring()} path={model.craftercms?.path}>
             <Header model={model} />
           </ExperienceBuilder>
